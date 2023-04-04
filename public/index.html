@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <title>Dotazník - Váš spánek</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="/savedata" method="POST">
+                    <h2>Dotazník - Váš spánek</h2>
+                    <div class="inputbox">
+                        <input type="text" name="casDoUsnuti" id="casDoUsnuti">
+                        <label for="casDoUsnuti">Jak dlouho průměrně trvá, než usnete?</label>
+                    </div>
+                    <div class="inputbox2">
+                        <input type="range" min="0" max="9" name="prumerSpanku" id="prumerSpanku">
+                        <label for="prumerSpanku">Kolik hodin spíte průměrně za noc?</label>
+                    </div>
+                    <div class="inputbox2">
+                        <input type="range" min="1" max="3" name="rozmeziSpanku" id="rozmeziSpanku">
+                        <label for="rozmeziSpanku">Jaké je vaše obvyklé časové rozmezí spánku?</label>
+                    </div>
+                    <div class="inputbox2">
+                        <input type="range" min="0" max="9" name="probouzeni" id="probouzeni">
+                        <label for="probouzeni">Jak často se probouzíte během noci?</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="unavenost" id="unavenost">
+                        <label for="unavenost">Jak často se cítíte unaveni během dne?</label>
+                    </div>
+                    <div class="forget">
+                    <button type="submit">Odeslat</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

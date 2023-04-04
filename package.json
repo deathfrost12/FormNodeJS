@@ -1,0 +1,26 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Dotaznik - Vas spanek",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "PUG",
+    "CSV"
+  ],
+  "license": "ISC",
+  "bugs": {
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "pug": "^3.0.2"
+  }
+}
